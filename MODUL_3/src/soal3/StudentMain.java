@@ -85,7 +85,7 @@ public class StudentMain {
                     break;
 
                 case 4:
-                    System.out.print("Daftar Mahasiswa");
+                    System.out.println("Daftar Mahasiswa");
 
                     if(students.isEmpty()) {
                         System.out.println("Belum ada data Mahasiswa");
@@ -102,3 +102,4 @@ public class StudentMain {
         } while (choose != 0);
     }
 }
+
